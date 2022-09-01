@@ -123,7 +123,12 @@
 .subscribe-title{
     @include fonts(14px, 21px, 500);
     margin-bottom: 12px;
-    
+
+    }
+
+.footer__subs-polisy{
+    display: flex;
+    flex-direction: column;
 }
 
 .subscription__btn-footer {
@@ -133,6 +138,7 @@
     padding: 11px 22px;
     width: 103px;
     height: 42px;
+    margin-top: 20px;
     border-radius: 30px;
     border: 1px solid $MainBorderColor;
     background-color: inherit;
@@ -145,6 +151,7 @@
     @media screen and (min-width: 768px) {
             margin-left: 0;
             margin-bottom: 0;
+            margin-top: 0;
         }
   
 }
